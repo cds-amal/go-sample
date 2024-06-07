@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
 # Remove the existing go.sum file
-rm ./go.sum
+rm ./go.sum >/dev/null 2>&1
 
 export GOPRIVATE=github.com/DIN-center
 # Download the dependencies for the specified module
 go mod download github.com/DIN-center/din-sc/apps/din-go
+go list -m all
 
 # Check if the go.sum file matches the expected go.sum file
 if diff go.sum expected.go.sum >/dev/null; then
@@ -15,10 +16,10 @@ if diff go.sum expected.go.sum >/dev/null; then
     fi
 
     # List the contents of the module path
-    printf "======================================================================================\n"
-    printf "Listing contents of $GOPATH/pkg/mod/github.com/\!d\!i\!n-center/din-sc/apps\n"
-    printf "======================================================================================\n\n"
-    tree $GOPATH/pkg/mod/github.com/\!d\!i\!n-center/din-sc/apps 
+    # printf "======================================================================================\n"
+    # printf "Listing contents of $GOPATH/pkg/mod/github.com/\!d\!i\!n-center/din-sc/apps\n"
+    # printf "======================================================================================\n\n"
+    # tree $GOPATH/pkg/mod/github.com/\!d\!i\!n-center/din-sc/apps 
 
     printf "go.sum:\n"
     sed 's/^/    /' ./go.sum  # Add indentation to each line of go.sum
