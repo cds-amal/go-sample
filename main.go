@@ -1,7 +1,10 @@
 package main
 
-import dingo "github.com/DIN-center/din-sc/apps/din-go"
+import (
+	"fmt"
+	dingo "github.com/DIN-center/din-sc/apps/din-go/pkg/dinregistry"
+)
 
 func main() {
-	dingo.Run()
+	fmt.Println(dingo.GetDINRegistry())
 }
