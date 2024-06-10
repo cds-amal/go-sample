@@ -2,7 +2,8 @@ module github.com/cds-amal/go-mono
 
 go 1.21.6
 
-require github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240607170436-3f367207e7b8 // pseudo-version to satisfy go mod requirements
+require github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240610153500-372bccae2173
+
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
@@ -32,4 +33,4 @@ require (
 )
 
 // specify the version with the test branch, this should change when we merge the PR
-replace github.com/DIN-center/din-sc/apps/din-go => github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240607170436-3f367207e7b8
+replace github.com/DIN-center/din-sc/apps/din-go => github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240610153500-372bccae2173
