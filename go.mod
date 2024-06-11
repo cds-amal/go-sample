@@ -1,6 +1,6 @@
 module github.com/cds-amal/go-sample
 
-go 1.21.6
+go 1.22.4
 
 require github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240610153500-372bccae2173
 
