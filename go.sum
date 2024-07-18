@@ -1,7 +1,5 @@
-github.com/DIN-center/din-sc v0.0.0-20240605161942-b2e562f2da9c h1:lC05bgUJtmvP7hs9uIZcKpqc6bLwZ53uKeR9yK6a9I8=
-github.com/DIN-center/din-sc v0.0.0-20240605161942-b2e562f2da9c/go.mod h1:EKba2u2zGsoP+SRzq071eTA2pPxgi4+e2bBpJC612/c=
-github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240610153500-372bccae2173 h1:kh4y3K/rx2VC8vMXuk0qiSV+HNWiv4QsiF1hF8PFGlw=
-github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240610153500-372bccae2173/go.mod h1:llSG4BE9vf9XtCQo0gKsYh7vbIrS29DXQMSS1eqZkqY=
+github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240718221439-b4f1a8e0ce5d h1:11Ck+ENgM/fde8pjxAdq7viK4z1zMUjFr1iIJHiD7d0=
+github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240718221439-b4f1a8e0ce5d/go.mod h1:MW5K12pmv+aV1fxl3DgAbPd6OJ9Lxho52GPETrmifAc=
 github.com/DataDog/zstd v1.4.5 h1:EndNeuB0l9syBZhut0wns3gV1hL8zX8LIu6ZiVHWLIQ=
 github.com/DataDog/zstd v1.4.5/go.mod h1:1jcaCB/ufaK+sKp1NBhlGmpz41jOoPQ35bpF36t7BBo=
 github.com/StackExchange/wmi v1.2.1 h1:VIkavFPXSjcnS+O8yTq7NI32k0R5Aj+v39y29VYDOSA=
