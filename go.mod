@@ -5,6 +5,7 @@ go 1.22.4
 require github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240610153500-372bccae2173
 
 require (
+	github.com/DIN-center/din-sc v0.0.0-20240718161011-731cfc1a2e32 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/bits-and-blooms/bitset v1.10.0 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
