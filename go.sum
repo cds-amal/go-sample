@@ -1,7 +1,7 @@
-github.com/DIN-center/din-sc v0.0.0-20240718161011-731cfc1a2e32 h1:pOp2ChFr4FlC2K46n8tKDHdQcpS6vrYBE6cn11GpQ1U=
-github.com/DIN-center/din-sc v0.0.0-20240718161011-731cfc1a2e32/go.mod h1:EKba2u2zGsoP+SRzq071eTA2pPxgi4+e2bBpJC612/c=
-github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240718221439-b4f1a8e0ce5d h1:11Ck+ENgM/fde8pjxAdq7viK4z1zMUjFr1iIJHiD7d0=
-github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240718221439-b4f1a8e0ce5d/go.mod h1:MW5K12pmv+aV1fxl3DgAbPd6OJ9Lxho52GPETrmifAc=
+github.com/DIN-center/din-sc v0.0.0-20240719151827-9a3ac2ee0b82 h1:soHqVk6T61eSgdDLOe8nb7MKI/jY3ryP+jPl6eQj6do=
+github.com/DIN-center/din-sc v0.0.0-20240719151827-9a3ac2ee0b82/go.mod h1:EKba2u2zGsoP+SRzq071eTA2pPxgi4+e2bBpJC612/c=
+github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240719151827-9a3ac2ee0b82 h1:St0MwUBi1TxtcnizyPfRj817B44w6hxQJU8eGwNN1Mg=
+github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240719151827-9a3ac2ee0b82/go.mod h1:MW5K12pmv+aV1fxl3DgAbPd6OJ9Lxho52GPETrmifAc=
 github.com/andybalholm/brotli v1.0.4 h1:V7DdXeJtZscaqfNuAdSRuRFzuiKlHSC/Zh3zl9qY3JY=
 github.com/andybalholm/brotli v1.0.4/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
 github.com/bits-and-blooms/bitset v1.10.0 h1:ePXTeiPEazB5+opbv5fr8umg2R/1NlzgDsyepwsSr88=
@@ -54,6 +54,7 @@ golang.org/x/crypto v0.17.0/go.mod h1:gCAAfMLgwOJRpTjQ2zCCt2OcSfYMTeZVSRtQlPC7Nq
 golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa h1:FRnLl4eNAQl8hwxVVC17teOw8kdjVDVAiFMtgUdTSRQ=
 golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa/go.mod h1:zk2irFbV9DP96SEBUUAy67IdHUaZuSnrz1n472HUCLE=
 golang.org/x/mod v0.4.2/go.mod h1:s0Qsj1ACt9ePp/hMypM3fl4fZqREWJwdYDEqhRiZZUA=
+golang.org/x/mod v0.14.0/go.mod h1:hTbmBsO62+eylJbnUtE2MGJUyE7QWk4xUqPFrRgJ+7c=
 golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
 golang.org/x/net v0.0.0-20190620200207-3b0461eec859/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4/go.mod h1:p54w0d4576C0XHj96bSt6lcn1PtDYWL6XObtHCRCNQM=
@@ -82,6 +83,7 @@ golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
 golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
 golang.org/x/tools v0.0.0-20191119224855-298f0cb1881e/go.mod h1:b+2E5dAYhXwXZwtnZ6UAqBI28+e2cm9otk0dWdXHAEo=
 golang.org/x/tools v0.1.1/go.mod h1:o0xws9oXOQQZyjljx8fwUC0k7L1pTE6eaCbjGeHmOkk=
+golang.org/x/tools v0.15.0/go.mod h1:hpksKq4dtpQWS1uQ61JkdqWM3LscIS6Slf+VVkm+wQk=
 golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 golang.org/x/xerrors v0.0.0-20191011141410-1b5146add898/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=

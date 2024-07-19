@@ -2,10 +2,10 @@ module github.com/cds-amal/go-sample
 
 go 1.22.4
 
-require github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240610153500-372bccae2173
+require github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240719151827-9a3ac2ee0b82
 
 require (
-	github.com/DIN-center/din-sc v0.0.0-20240718161011-731cfc1a2e32 // indirect
+	github.com/DIN-center/din-sc v0.0.0-20240719151827-9a3ac2ee0b82 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/bits-and-blooms/bitset v1.10.0 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
@@ -27,10 +27,9 @@ require (
 	github.com/valyala/fasthttp v1.41.0 // indirect
 	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
+	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/sync v0.5.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect
+	golang.org/x/tools v0.15.0 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
-
-// specify the version with the test branch, this should change when we merge the PR
-replace github.com/DIN-center/din-sc/apps/din-go => github.com/DIN-center/din-sc/apps/din-go v0.0.0-20240718221439-b4f1a8e0ce5d
